@@ -1,0 +1,56 @@
+ul {
+    background-color: rgb(168, 3, 3);
+    list-style: none;
+    text-align: end;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    background: rgb(168, 3, 3);
+    display: block;
+    padding: 20px 45px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.dropdown{
+    text-align: center;
+    color: white;   
+    display: block;
+    width: 230px;
+    padding: 20px;
+    background: rgb(rgb(109, 21, 21), green, blue);
+    position: absolute;
+    z-index:1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    top: 70px;
+    right: 0px;
+    display: none;
+} 
+
+ul li a:hover{
+    background: lightcoral;
+
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+
+}
+
+#now{
+    color: lightcoral;
+}
+
+p{
+    color: red;
+}
