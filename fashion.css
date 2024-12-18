@@ -54,3 +54,7 @@ ul li:hover ul.dropdown{
 p{
     color: red;
 }
+span{
+    font-size: 50px;
+    font-family: url(汉仪文黑-85W.ttf);
+}
