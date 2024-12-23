@@ -51,10 +51,16 @@ ul li:hover ul.dropdown{
     color: lightcoral;
 }
 
-p{
-    color: red;
+p {
+    color: #333333;
+    text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.5);
+    font-size: 90px;
 }
-span{
-    font-size: 50px;
-    font-family: url(汉仪文黑-85W.ttf);
+body{
+    background-image: url(image/791571123765_.pic_hd.png);
+    font-family: 'MyCustomFont', sans-serif;
+}
+@font-face {
+    font-family: 'MyCustomFont';
+        src: url(font/汉仪文黑-85W.ttf) format('truetype'),
 }
